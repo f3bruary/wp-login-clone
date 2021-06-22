@@ -896,16 +896,24 @@ select {
   width: 100vw;
 }
 
-.w-\[320px\] {
-  width: 320px;
-}
-
 .w-\[84px\] {
   width: 84px;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .w-6 {
   width: 1.5rem;
+}
+
+.w-\[320px\] {
+  width: 320px;
+}
+
+.max-w-\[320px\] {
+  max-width: 320px;
 }
 
 .-translate-x-2\/4 {
@@ -987,6 +995,11 @@ select {
 
 .p-8 {
   padding: 2rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-\[0\.1875rem\] {
