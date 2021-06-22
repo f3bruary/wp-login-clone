@@ -1,43 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Log In &lsaquo; [SITE NAME]] &#8212; WordPress</title>
-</head>
-<body>
-  <section class="bg-[#f0f0f1] text-[#3c434a]">
-    <div class="container h-screen w-screen mx-auto">
-      <div id="main-box" class="flex flex-col justify-center items-center pt-20 w-[320px] mx-auto">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" class="w-[84px] h-[84px] mx-auto" height="84" width="84">
-        <div id="login-box" class="bg-white border-[1px] border-[#c3c4c7] mt-8 p-8">
-          <form action="/" class="flex flex-col">
-            <span class="text-sm">Username of Email Address</span>
-            <input type="text" name="" id="" class="border-[0.0625rem] border-gray-600 focus:border-[#2271b1] text-2xl rounded py-[0.1875rem] text-[#2c3338] px-[0.3425rem] min-h-[40px] mt-1">
-            <span class="text-sm mt-4">Password</span>
-            <div class="relative">
-              <input type="password" name="" id="" class="relative border-[0.0625rem] focus:border-[#2271b1] border-gray-600 text-2xl rounded py-[0.1875rem] text-[#2c3338] px-[0.3425rem] min-h-[40px] mt-1">
-              <button class="absolute -translate-x-2/4 translate-y-2/4 top-0 right-0 text-[#2271b1]">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                </svg>
-              </button>
-            </div>
-            <div class="mt-6 flex items-center justify-between">
-              <input type="checkbox" name="" id=""><span class="ml-2 text-sm">Remember me</span>
-              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="ml-auto text-white text-sm font-normal px-3 py-1.5 rounded bg-[#2271b1]">Log In</a>
-            </div>
-          </form>
-        </div>
-        <div class="justify-start items-start text-xs space-y-4 w-[320px] mt-8">
-          <a href="#" class="block">Lost your password?</a>
-          <a href="#" class="block">← Go to [SITE NAME]</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Log In &lsaquo; [SITE NAME]] &#8212; WordPress</title>
+  </head>
+  <body>
+    <section class="bg-[#f0f0f1] text-[#3c434a]">
+      <div class="container h-screen w-screen mx-auto">
+        <div id="main-box" class="flex flex-col justify-center items-center pt-20 w-[320px] mx-auto">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" class="w-[84px] h-[84px] mx-auto" height="84" width="84" />
+          <div id="login-box" class="bg-white border-[1px] border-[#c3c4c7] mt-8 p-8">
+            <form action="/" class="flex flex-col">
+              <span class="text-sm">Username of Email Address</span>
+              <input
+                type="email"
+                name=""
+                id="myInput"
+                class="
+                  border-[0.0625rem] border-gray-600
+                  focus:border-[#2271b1]
+                  text-2xl
+                  rounded
+                  py-[0.1875rem]
+                  text-[#2c3338]
+                  px-[0.3425rem]
+                  min-h-[40px]
+                  mt-1
+                "
+              />
+              <span class="text-sm mt-4">Password</span>
+              <div class="relative">
+                <input
+                  type="password"
+                  name=""
+                  id=""
+                  class="
+                    relative
+                    border-[0.0625rem]
+                    focus:border-[#2271b1]
+                    border-gray-600
+                    text-2xl
+                    rounded
+                    py-[0.1875rem]
+                    text-[#2c3338]
+                    px-[0.3425rem]
+                    min-h-[40px]
+                    mt-1
+                  "
+                />
+                <button class="absolute -translate-x-2/4 translate-y-2/4 top-0 right-0 text-[#2271b1]">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="mt-6 flex items-center justify-between">
+                <input type="checkbox" name="" id="" /><span class="ml-2 text-sm">Remember me</span>
+                <a id="myBtn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="ml-auto text-white text-sm font-normal px-3 py-1.5 rounded bg-[#2271b1]">Log In</a>
+              </div>
+            </form>
+          </div>
+          <div class="justify-start items-start text-xs space-y-4 w-[320px] mt-8">
+            <a href="#" class="block">Lost your password?</a>
+            <a href="#" class="block">← Go to [SITE NAME]</a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-</body>
+    </section>
+    <script>
+      // Get the input field
+      var input = document.getElementById("myInput");
+
+      // Execute a function when the user releases a key on the keyboard
+      input.addEventListener("keyup", function (event) {
+        // Number 13 is the "Enter" key on the keyboard
+        if (event.keyCode === 13) {
+          // Cancel the default action, if needed
+          event.preventDefault();
+          // Trigger the button element with a click
+          document.getElementById("myBtn").click();
+        }
+      });
+    </script>
+  </body>
 </html>
