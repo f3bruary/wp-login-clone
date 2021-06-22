@@ -823,6 +823,10 @@ select {
   }
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .absolute {
   position: absolute;
 }
@@ -906,10 +910,6 @@ select {
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-\[320px\] {
-  width: 320px;
 }
 
 .max-w-\[320px\] {
